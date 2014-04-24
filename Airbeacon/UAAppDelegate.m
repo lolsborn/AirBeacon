@@ -15,4 +15,9 @@
     // Insert code here to initialize your application
 }
 
+- (IBAction)addBeacon:(id)sender {
+    NSLog(@"add beacon");
+}
+
 @end
+

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B010559C19088F5000A141F4 /* UATableCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = B010559B19088F5000A141F4 /* UATableCellView.m */; };
 		B094282519077673006B1424 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B094282419077673006B1424 /* Cocoa.framework */; };
 		B094282F19077674006B1424 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B094282D19077674006B1424 /* InfoPlist.strings */; };
 		B094283119077674006B1424 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B094283019077674006B1424 /* main.m */; };
@@ -31,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B010559A19088F5000A141F4 /* UATableCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UATableCellView.h; sourceTree = "<group>"; };
+		B010559B19088F5000A141F4 /* UATableCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UATableCellView.m; sourceTree = "<group>"; };
 		B094282119077673006B1424 /* Airbeacon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Airbeacon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B094282419077673006B1424 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		B094282719077674006B1424 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -120,6 +123,8 @@
 				B094283919077674006B1424 /* MainMenu.xib */,
 				B094283C19077674006B1424 /* Images.xcassets */,
 				B094282B19077674006B1424 /* Supporting Files */,
+				B010559A19088F5000A141F4 /* UATableCellView.h */,
+				B010559B19088F5000A141F4 /* UATableCellView.m */,
 			);
 			path = Airbeacon;
 			sourceTree = "<group>";
@@ -255,6 +260,7 @@
 			files = (
 				B094283819077674006B1424 /* UAAppDelegate.m in Sources */,
 				B094283119077674006B1424 /* main.m in Sources */,
+				B010559C19088F5000A141F4 /* UATableCellView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,6 +473,7 @@
 				B094285419077674006B1424 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B094285519077674006B1424 /* Build configuration list for PBXNativeTarget "AirbeaconTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +482,7 @@
 				B094285719077674006B1424 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
